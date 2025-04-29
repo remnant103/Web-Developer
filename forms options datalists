@@ -1,0 +1,47 @@
+<form>
+            <label for="fields-of-study">Select Field of Study:<select name="fields-of-study" id="fields-of-study">
+                
+               <option value="math">Math</option>
+               <option value="science">Science</option>
+               <option value="finance">Finance</option>
+               <option value="history">History</option>
+               <option value="languages">Languages</option>
+
+
+
+            </select></label>
+        </form>
+
+
+
+	<label for="ice-cream-choice">What's your favourite ice cream flavor?</label>
+	<!--
+		The <input> field and <datalist> are matched by their list
+		and id attributes.
+	-->
+	<input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" type="text" />
+
+	<datalist id="ice-cream-flavors">
+		<option value="Chocolate"></option>
+		<option value="Coconut"></option>
+		<option value="Mint"></option>
+		<option value="Strawberry"></option>
+		<option value="Vanilla"></option>
+	</datalist>
+
+
+<form action="https://formdump.codeinstitute.net/" method="post">
+    
+    <label for="favorite-color">What's your favorite color?</label>
+    <input type="text" id="favorite-color" list="colors" name="fav-color">
+    
+    <datalist id="colors">
+        <option value="Red">Red</option>
+        <option value="Orange">Orange</option>
+        <option value="Yellow">Yellow</option>
+        <option value="Green">Green</option>
+    </datalist>
+
+    <input type="submit">
+
+</form>
