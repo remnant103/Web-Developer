@@ -1,0 +1,9 @@
+Focus on input and a
+
+ a:hover   {
+            color: red;
+        }
+        
+      input:focus   {
+            background-color: green;
+        }
