@@ -1,0 +1,17 @@
+CSS class selectors 
+
+.bigtext {
+    color: black;
+    font-size: 2rem;
+}
+
+.red {
+    color:red;
+}
+
+.green {
+    color: green;
+}
+.blue {
+    color: blue;
+}
